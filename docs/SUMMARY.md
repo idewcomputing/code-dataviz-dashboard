@@ -1,4 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Getting Started](README.md)
+* [Dashboard Template Tutorial](dashboard-template-tutorial.md)
+* [Code Examples](code-examples.md)
 
