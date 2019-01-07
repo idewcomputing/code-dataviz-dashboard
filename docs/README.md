@@ -1,6 +1,6 @@
 # Getting Started
 
-Just create the HTML, CSS, and Javascript files below and you are off to the races.
+Just create the HTML, CSS, and Javascript files below and you are off to the races. Click on the file name   to get the code content for each.
 
 {% code-tabs %}
 {% code-tabs-item title="index.html" %}
