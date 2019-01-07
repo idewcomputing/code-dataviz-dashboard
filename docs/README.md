@@ -11,7 +11,7 @@ Just create the HTML, CSS, and Javascript files below and you are off to the rac
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
+	<title>Dashboard Template</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
