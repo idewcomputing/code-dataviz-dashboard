@@ -31,7 +31,7 @@ Just create the HTML, CSS, and Javascript files below and you are off to the rac
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script src="https://cdn.jsdelivr.net/alasql/0.2/alasql.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-dataviz-dashboard/src/viz.js"></script></script>
+	<script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-dataviz-dashboard/src/viz.js"></script>
 	<script src="code.js"></script>
 </body>
 
