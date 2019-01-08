@@ -1,2 +1,2 @@
-# Customizing Line Charts
+# Line Charts
 

@@ -1,2 +1,2 @@
-# Customizing Scatter Charts
+# Scatter Charts
 

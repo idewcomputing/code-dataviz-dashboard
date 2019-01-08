@@ -1,4 +1,4 @@
-# Customizing Bar Charts
+# Bar Charts
 
 ```javascript
 viz.chart({
