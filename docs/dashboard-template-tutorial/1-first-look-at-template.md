@@ -2,7 +2,7 @@
 
 
 
-The dashboard template will get you up and running fast with creating a dashboard visualization. The template uses the following tools to make things easier for us.
+The dashboard template provides the HTML/CSS/JS needed to get started with web-based data visualization. The template uses the following tools to make things easier for us.
 
 * Google Sheets - This will function as our "database" of tables.
 * Structured Query Language \(SQL\) - SQL will be used to pull the right data from the database for visualizing.
