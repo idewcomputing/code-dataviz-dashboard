@@ -56,5 +56,5 @@ This gets a different table, "States", that can be found in our example database
 
 **4 - Go to** [**this Google Sheet**](https://docs.google.com/spreadsheets/d/1o60fGIa1USsQTXyYc-Qh-eYQ2TlHaaEC_iSdzJ7WbD4/edit?usp=sharing) **to see the example database and notice how each sheet \(tab\) is a table with a unique name.**
 
-You will use SQL to get the right data from a database \(Google Sheets file\) for the charts you want to display. Next, we talk about producing the actual charts. 
+You will use SQL to get the right data from a database \(Google Sheets file\) for the charts you want to display. Next, let's look at producing the actual charts. 
 
