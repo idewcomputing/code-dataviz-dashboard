@@ -21,7 +21,7 @@ viz.chart({
         format: "currency"
       }
     }
-  });
+});
 ```
 
 
