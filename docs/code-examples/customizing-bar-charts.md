@@ -12,7 +12,7 @@ viz.chart({
         fontName: "Arial",
         fontSize: 18
       },
-        legend: {
+      legend: {
         position: "right"
       },
       colors: ["#bb0000", "#ffaa00"],
