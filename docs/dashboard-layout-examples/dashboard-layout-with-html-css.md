@@ -25,7 +25,9 @@ Notice that the "card" for the first chart also has a class called "full-width".
 
 ### CSS
 
-First, notice the "\#page" style defines the normal grid design of 3 elements \(or columns\) per row. `grid-template-columns: 1fr 1fr 1fr;` Next, the ".full-width" style specifies the element to start at the first position and span 3 columns. `grid-column: 1 / span 3;`
+First, notice the _id="page" \(\#page\)_ style defines the normal grid design of 3 elements \(or 3 columns\) per row. `grid-template-columns: 1fr 1fr 1fr;` This applies to all the grid elements inside the _id = "page"_ element.
+
+Next, any element with the class _"full-width"_  will start at the first position and span 3 columns. `grid-column: 1 / span 3;`
 
 ```css
 #page {
