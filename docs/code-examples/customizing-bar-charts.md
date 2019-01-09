@@ -1,5 +1,7 @@
 # Bar Charts
 
+The "options" parameter included below demonstrates many style changes you can make to a bar chart.
+
 ```javascript
 viz.chart({
     sql: "SELECT Major, StartingMedianSalary, MidCareerMedianSalary FROM Degrees",
