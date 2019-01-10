@@ -19,7 +19,7 @@ Next click the Share button in the upper-righthand corner and copy the shareable
 
 ### 3 - Load Your File in Javascript
 
-In your javascript file, replace this line `viz.loadExampleTables().then(composeCharts);` with the code below, except use your shareable link.
+In your javascript file, find this line in the _setup\(\)_ function: `viz.loadExampleTables().then(composeCharts);` Copy the code below and paste it just after this line. Now replace the link with your shareable link.
 
 ```javascript
 viz.loadTables('https://docs.google.com/spreadsheets/d/1o60fGIa1USsQTXyYc-Qh-eYQ2TlHaaEC_iSdzJ7WbD4/edit?usp=sharing')
@@ -29,9 +29,9 @@ viz.loadTables('https://docs.google.com/spreadsheets/d/1o60fGIa1USsQTXyYc-Qh-eYQ
 Now you can access your database in your SQL statements. Remember that your individual sheet names are the tables you can select from in SQL. So if you want to get all the columns from a sheet \(table\) called "myData", then you would use the following:`SELECT * FROM myData`
 
 {% hint style="info" %}
-#### Merge your database with the example database.
+#### Merging your database with the example database.
 
-You may choose to keep the example database rather than removing it from your Javascript, as long as your database \(Google sheets file\) doesn't use any table names \(individual sheet names\) already in the example database. as this would cause a conflict.
+Ensure your database \(Google sheets file\) doesn't use any table names \(individual sheet names\) already in the example database. as this would cause a conflict.
 {% endhint %}
 
 ### 4 - Create a Chart from Your Database
