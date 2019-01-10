@@ -17,6 +17,7 @@
   * [Histograms](code-examples/customizing-histograms.md)
   * [Scatter Charts](code-examples/customizing-scatter-charts.md)
   * [Line Charts](code-examples/customizing-line-charts.md)
+  * [Bubble Charts](code-examples/bubble-charts.md)
 * [Dashboard Layout Examples](dashboard-layout-examples/README.md)
   * [Custom Grid 1](dashboard-layout-examples/dashboard-layout-with-html-css.md)
 * [Viz Library Source \(GitHub\)](https://github.com/idewcomputing/code-dataviz-dashboard/blob/master/src/viz.js)
