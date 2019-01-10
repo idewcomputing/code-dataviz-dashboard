@@ -9,7 +9,7 @@
 | Agriculture | 42600.00 | 71900.00 |
 | Anthropology | 36800.00 | 61500.00 |
 
-We could then use SQL to "filter" the table. For example the following SQL statement..
+We can then use SQL to "filter" the table. For example the following SQL statement..
 
 ```sql
 SELECT Major, StartingMedianSalary FROM Degrees
