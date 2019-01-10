@@ -31,9 +31,12 @@ First, notice the _id="page" \(\#page\)_ style defines the normal grid design of
 
 Next, any element with the class _"full-width"_  will start at the first position and span 3 columns. `grid-column: 1 / span 3;`
 
-We can also add a style \(look for @media ... below \) that makes our dashboard mobile-friendly where all the charts just stack on top of each other if the screen is less than 700px wide. 
+We can also add a style \(look for _@media_ ... below \) that makes our dashboard mobile-friendly where all the charts just stack on top of each other if the screen is less than 700px wide. 
 
 ```css
+/* This is not the complete CSS file contents.*/ 
+/* It simply demonstrates the important styles for this layout example. */
+
 #page {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
