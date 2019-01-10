@@ -48,5 +48,5 @@ Run your web app and you should see your new chart. This chart uses data from th
 
 ### More Charts and More Options
 
-See the [Code Examples](../code-examples/) section for different charts and options you will want to use in your final dashboard, like titles and colors.
+See the [Code Examples](../code-examples/) section for different charts and options you may want to use in your final dashboard, like titles and colors.
 
