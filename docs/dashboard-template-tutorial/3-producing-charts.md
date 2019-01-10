@@ -22,6 +22,8 @@ In your Javascript, change the chart type to "ColumnChart". Run the web app and 
 
 **3 - Change the** _**chartType**_ **to "Histogram"**
 
+In your Javascript, change the chart type to "Histogram". Run the web app and notice how the chart changes.
+
 **4 - Add Another Chart that Uses a Different Data Table**
 
 Copy and add the following Javascript into your _composeCharts\( \)_ function.
