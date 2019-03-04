@@ -14,6 +14,7 @@
 * [Chart Examples](code-examples/README.md)
   * [Bar Charts](code-examples/customizing-bar-charts.md)
   * [Column Charts](code-examples/customizing-column-charts.md)
+  * [Pie/Donut Chart](code-examples/pie-donut-chart.md)
   * [Histograms](code-examples/customizing-histograms.md)
   * [Scatter Charts](code-examples/customizing-scatter-charts.md)
   * [Line Charts](code-examples/customizing-line-charts.md)
