@@ -2,7 +2,7 @@
 
 ```javascript
   viz.chart({
-    sql: "SELECT Year, Total FROM Trend",
+    sql: "SELECT Year, Total FROM Trend2",
     chartType: "PieChart",
     containerId: "chart1",
     options: {
