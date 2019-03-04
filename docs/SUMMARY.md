@@ -19,6 +19,7 @@
   * [Scatter Charts](code-examples/customizing-scatter-charts.md)
   * [Line Charts](code-examples/customizing-line-charts.md)
   * [Bubble Charts](code-examples/bubble-charts.md)
+  * [Geo Charts](code-examples/geo-charts-1.md)
   * [Geo Charts \(Markers\)](code-examples/geo-charts.md)
   * [Tree Maps](code-examples/tree-maps.md)
 * [Dashboard Layout Examples](dashboard-layout-examples/README.md)
