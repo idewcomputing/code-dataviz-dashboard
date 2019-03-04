@@ -12,6 +12,7 @@
   * [ORDER BY](sql-examples/order-by.md)
   * [LIMIT](sql-examples/limit.md)
 * [Chart Examples](code-examples/README.md)
+  * [Geo Charts](code-examples/geo-charts.md)
   * [Bar Charts](code-examples/customizing-bar-charts.md)
   * [Column Charts](code-examples/customizing-column-charts.md)
   * [Pie/Donut Chart](code-examples/pie-donut-chart.md)
