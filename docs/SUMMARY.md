@@ -23,6 +23,7 @@
   * [Geo Charts \(Markers\)](code-examples/geo-charts.md)
   * [Tree Maps](code-examples/tree-maps.md)
 * [Dashboard Layout Examples](dashboard-layout-examples/README.md)
+  * [Selectable Chart Data](dashboard-layout-examples/selectable-chart-data.md)
   * [Custom Grid 1](dashboard-layout-examples/dashboard-layout-with-html-css.md)
 * [Viz Library Source \(GitHub\)](https://github.com/idewcomputing/code-dataviz-dashboard/blob/master/src/viz.js)
 * [Google Charts Reference](https://developers.google.com/chart/interactive/docs/)
