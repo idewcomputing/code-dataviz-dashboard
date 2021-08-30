@@ -1,3 +1,9 @@
+---
+description: >-
+  ⚠️  Important Note: This page was updated significantly August 30, 2021 to fix
+  a new problem with loading spreadsheet data.
+---
+
 # 4 - Creating Your Own Database \(Google Sheet\)
 
 {% hint style="info" %}
