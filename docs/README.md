@@ -46,11 +46,12 @@ Create the HTML, CSS, and Javascript files below and you are off to the races. C
 {% tab title="code.js" %}
 ```javascript
 function setup() {
-  viz.loadExampleTables().then(composeCharts);
-  window.onresize = composeCharts;
+  var degreesLink = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQUwF7K2lCH8CxQPJW-X7NqENwuwUM4eAeNUKw3j6yppO0tipC6yUB2hQPtRBZf19mmVbM5TdkkengZ/pub?gid=1030028695&single=true&output=csv';
+  viz.loadTable(degreesLink,"Degrees").then(composeDegreeCharts);
+  window.onresize = composeDegreeCharts;
 }
 
-function composeCharts() {
+function composeDegreeCharts() {
   viz.chart({
     sql:"SELECT Major, StartingMedianSalary FROM Degrees",
     chartType:"BarChart",
@@ -65,6 +66,7 @@ function composeCharts() {
 }
 
 window.onload = setup;
+
 
 ```
 {% endtab %}
