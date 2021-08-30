@@ -19,28 +19,45 @@ Create a Google Sheet file then create a simple table, like below, that could be
 
 Create a Google Sheets file and publish it by selection `file`&gt;`Publish to the web...` then click the _Publish_ button. 
 
-### 2 - Get the Public Shareable Link
+### 2 - Get the Public Link for a Table
 
-Next click the Share button in the upper-righthand corner and copy the shareable link. Make sure it is set to "Anyone with link can view".
+Next click select the _tab name_ you want to access and choose _Comma-separated values \(.csv\)._ Then **copy the link provided**. See the image below for an example the selects a "Degrees" tab and Comma-separated values..   
+__![](../.gitbook/assets/image.png) 
 
-### 3 - Load Your File in Javascript
+### 3 - Load Your Table in Javascript
 
-In your javascript file, find this line in the _setup\(\)_ function: `viz.loadExampleTables().then(composeCharts);` Copy the code below and paste it just after this line. Now replace the link with your shareable link.
+Copy the code below and paste it just after this line. Now replace the link with your table link copied in the previous step and change the tab label \(e.g. 'myData'\) to match your sheet tab label. You can change the `composeMyCharts` function name as you wish or keep it the same.
 
 ```javascript
-viz.loadTables('https://docs.google.com/spreadsheets/d/1o60fGIa1USsQTXyYc-Qh-eYQ2TlHaaEC_iSdzJ7WbD4/edit?usp=sharing')
-    .then(composeCharts);
+viz.loadTable('https://docs.google.com/spreadsheets/d/e/2PACX-1vQUwF7K2lCH8CxQPJW-X7NqENwuwUM4eAeNUKw3j6yppO0tipC6yUB2hQPtRBZf19mmVbM5TdkkengZ/pub?gid=1030028695&single=true&output=csv', 'myData')
+    .then(composeMyCharts);
 ```
 
 Now you can access your database in your SQL statements. Remember that your individual sheet names are the tables you can select from in SQL. So if you want to get all the columns from a sheet \(table\) called "myData", then you would use the following:`SELECT * FROM myData`
 
-{% hint style="info" %}
-#### Merging your database with the example database.
+### 4 - Create Charts from Your New Table
 
-Ensure your database \(Google sheets file\) doesn't use any table names \(individual sheet names\) already in the example database. as this would cause a conflict.
-{% endhint %}
+Create a function in your Javascript that will then define the charts for your new table. You can use the example below as a template, but you want the ensure the function name used in step 3 \(e.g. composeMyCharts\) matches this function name. You will also want to change the SQL and ensure that you have HTML elements with ID's to display the charts.
 
-### 4 - Create a Chart from Your Database
+```javascript
+function composeMyCharts() {
+  viz.chart({
+    sql:"SELECT Major, StartingMedianSalary FROM Degrees",
+    chartType:"BarChart",
+    containerId:"chart1"
+  });
 
-Use the same process you used earlier to produce a scatter chart from your data. Essentially, you want to confirm that you understand how to create your own data and chart it in your dashboard.
+  viz.chart({
+    sql:"SELECT * FROM Degrees",
+    chartType:"Table",
+    containerId:"chart2"
+  });
+}
+```
+
+{% tabs %}
+{% tab %}
+
+{% endtab %}
+{% endtabs %}
 
