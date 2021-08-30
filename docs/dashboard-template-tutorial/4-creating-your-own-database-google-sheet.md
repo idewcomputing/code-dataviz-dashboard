@@ -6,6 +6,8 @@ description: >-
 
 # 4 - Creating Your Own Database \(Google Sheet\)
 
+{% embed url="https://www.loom.com/share/e766ac26fb444fa3ab140b13e2992525" %}
+
 {% hint style="info" %}
 For reference, when you want to find real-world data, consider using this resource.
 
