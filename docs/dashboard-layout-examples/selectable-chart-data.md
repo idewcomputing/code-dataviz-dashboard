@@ -4,6 +4,10 @@
 
 This example demonstrates how you can use a dropdown menu to allow a user to select, or filter, the data displayed on a column chart.
 
+{% hint style="info" %}
+Uses[ jQuery Selectors](https://www.w3schools.com/jquery/jquery_ref_selectors.asp), the [jQuery val function](https://www.w3schools.com/jquERY/html_val.asp), and the[ jQuery change function](https://www.w3schools.com/jquery/event_change.asp).
+{% endhint %}
+
 ### HTML
 
 The `select` element will be used to filter the data for a column chart that will be inserted in the "chart2" `div`. 

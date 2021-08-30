@@ -2,8 +2,12 @@
 
 Create the HTML, CSS, and Javascript files below and you are off to the races. Click on the file name   to get the code content for each.
 
-{% code-tabs %}
-{% code-tabs-item title="index.html" %}
+{% hint style="warning" %}
+**Ensure that your actual JavaScript filename matches the script element in the HTML** `<script src="code.js"></script>`
+{% endhint %}
+
+{% tabs %}
+{% tab title="index.html" %}
 ```markup
 <!DOCTYPE html>
 <html>
@@ -37,9 +41,9 @@ Create the HTML, CSS, and Javascript files below and you are off to the races. C
 
 </html>
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="code.js" %}
+{% tab title="code.js" %}
 ```javascript
 function setup() {
   viz.loadExampleTables().then(composeCharts);
@@ -63,9 +67,9 @@ function composeCharts() {
 window.onload = setup;
 
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="style.css" %}
+{% tab title="style.css" %}
 ```css
 body {
   padding: 15px;
@@ -94,8 +98,8 @@ h1 {
   padding: 15px 7px;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Copyright and License
 

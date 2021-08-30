@@ -27,4 +27,6 @@
   * [Custom Grid 1](dashboard-layout-examples/dashboard-layout-with-html-css.md)
 * [Viz Library Source \(GitHub\)](https://github.com/idewcomputing/code-dataviz-dashboard/blob/master/src/viz.js)
 * [Google Charts Reference](https://developers.google.com/chart/interactive/docs/)
+* [Data Visualization Project Guide Book](https://docs.idew.org/project-data-visualization-2/)
+* [Open Data Sources](https://www.freecodecamp.org/news/https-medium-freecodecamp-org-best-free-open-data-sources-anyone-can-use-a65b514b0f2d/)
 

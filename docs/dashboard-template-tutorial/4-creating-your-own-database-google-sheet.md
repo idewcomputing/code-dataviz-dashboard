@@ -1,5 +1,11 @@
 # 4 - Creating Your Own Database \(Google Sheet\)
 
+{% hint style="info" %}
+For reference, when you want to find real-world data, consider using this resource.
+
+[https://www.freecodecamp.org/news/https-medium-freecodecamp-org-best-free-open-data-sources-anyone-can-use-a65b514b0f2d/](https://www.freecodecamp.org/news/https-medium-freecodecamp-org-best-free-open-data-sources-anyone-can-use-a65b514b0f2d/)
+{% endhint %}
+
 ### 1 - Create a Google Sheets File and Add Data
 
 Create a Google Sheet file then create a simple table, like below, that could be used for a Scatter Chart. Also, name your individual sheet \(the tab at the bottom\) something like "myData".
