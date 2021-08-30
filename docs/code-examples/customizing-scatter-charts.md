@@ -4,7 +4,8 @@ The "options" parameter included below demonstrates many style changes you can m
 
 ```javascript
   viz.chart({
-    sql: "SELECT Year, Total FROM Trend", chartType: "ScatterChart",
+    sql: "SELECT Year, Total FROM Trend", 
+    chartType: "ScatterChart",
     containerId: "chart3",
     options: {
       title: "Trend in Tech Jobs",

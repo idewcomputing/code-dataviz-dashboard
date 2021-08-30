@@ -42,13 +42,13 @@ Create a function in your Javascript that will then define the charts for your n
 ```javascript
 function composeMyCharts() {
   viz.chart({
-    sql:"SELECT Major, StartingMedianSalary FROM Degrees",
-    chartType:"BarChart",
+    sql:"SELECT x, y FROM myData",
+    chartType:"ScatterChart",
     containerId:"chart1"
   });
 
   viz.chart({
-    sql:"SELECT * FROM Degrees",
+    sql:"SELECT * FROM myData",
     chartType:"Table",
     containerId:"chart2"
   });
