@@ -43,17 +43,18 @@ Notice the "card" class that creates the shadow effect you see with the charts.
 
 #### 4 - Review the Javascript
 
-* Notice that we load example tables from [a Google sheet that you can see here](https://docs.google.com/spreadsheets/d/1o60fGIa1USsQTXyYc-Qh-eYQ2TlHaaEC_iSdzJ7WbD4/edit?usp=sharing).
-* The function `composeCharts()` runs automatically once the data is loaded.
-* In `composeCharts()` we create our charts by specifying SQL \(more on this later\), the chart type, and the HTML element it should be placed.
+* Notice that we load an example table from the "Degrees" tab in [a Google sheet that you can see here](https://docs.google.com/spreadsheets/d/1o60fGIa1USsQTXyYc-Qh-eYQ2TlHaaEC_iSdzJ7WbD4/edit?usp=sharing).
+* The function `composeDegreeCharts()` runs automatically once the data is loaded.
+* In `composeDegreeCharts()` we create our charts by specifying SQL \(more on this later\), the chart type, and the HTML element it should be placed.
 
 ```javascript
 function setup() {
-  viz.loadExampleTables().then(composeCharts);
-  window.onresize = composeCharts;
+  var degreesLink = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQUwF7K2lCH8CxQPJW-X7NqENwuwUM4eAeNUKw3j6yppO0tipC6yUB2hQPtRBZf19mmVbM5TdkkengZ/pub?gid=1030028695&single=true&output=csv';
+  viz.loadTable(degreesLink,"Degrees").then(composeDegreeCharts);
+  window.onresize = composeDegreeCharts;
 }
 
-function composeCharts() {
+function composeDegreeCharts() {
   viz.chart({
     sql:"SELECT Major, StartingMedianSalary FROM Degrees",
     chartType:"BarChart",
@@ -68,6 +69,7 @@ function composeCharts() {
 }
 
 window.onload = setup;
+
 ```
 
 That's the quick overview of the template. We will dig into the details and how to customize things next.
