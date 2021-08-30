@@ -1,27 +1,26 @@
 google.charts.load('current');
 var viz = {
   db: new alasql.Database(),
-  loadTables: function (link) {
+  loadTable: function (link, tab) {
     return new Promise((resolve, reject) => {
-      // this.db = new alasql.Database();
-      Tabletop.init({
-        key: link,
-        parseNumbers: true,
-        callback: (data, tabletop) => {
-          for (var tname in data) {
-            // console.log(data[tname].elements)
-            this.db.exec(`CREATE TABLE ${tname}`);
-            this.db.tables[tname].data = data[tname].elements;
-            resolve();
-          }
+      var self = this;
+      Papa.parse(link, {
+        download: true,
+        dynamicTyping: true,
+        header: true,
+        complete: function (results) {
+          console.log(results.data)
+          self.db.exec(`CREATE TABLE ${tab}`);
+          self.db.tables[tab].data = results.data;
+          resolve();
         }
-      });
+      })
     });
   },
   loadExampleTables: function () {
     return new Promise((resolve, reject) => {
-      var link = 'https://docs.google.com/spreadsheets/d/1o60fGIa1USsQTXyYc-Qh-eYQ2TlHaaEC_iSdzJ7WbD4/edit?usp=sharing';
-      this.loadTables(link).then(resolve);;
+      var link = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQUwF7K2lCH8CxQPJW-X7NqENwuwUM4eAeNUKw3j6yppO0tipC6yUB2hQPtRBZf19mmVbM5TdkkengZ/pub?output=csv';
+      this.loadTable(link, "Degrees").then(resolve);
     });
   },
   query: function (q) {
@@ -80,4 +79,3 @@ var viz = {
     wrapper.draw();
   }
 };
-
