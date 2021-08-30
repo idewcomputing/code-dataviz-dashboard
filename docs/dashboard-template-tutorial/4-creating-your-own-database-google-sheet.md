@@ -67,9 +67,3 @@ function composeMyCharts() {
 For any additional tables \(Spreadsheet Tabs\) you want to incorporate, you will repeat steps 2 through 5 above with the appropriate link, tab name, and additional function for composing charts.
 {% endhint %}
 
-{% tabs %}
-{% tab %}
-
-{% endtab %}
-{% endtabs %}
-
