@@ -101,6 +101,14 @@ h1 {
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+Note: August 30, 2021 the Papaparse Javascript library was added to the template in the HTML above with the follow line ...
+
+```markup
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+```
+{% endhint %}
+
 ## Copyright and License
 
 Copyright © 2018-2019 Jim Lyst and Michael Frontz, Indiana University School of Informatics and Computing at IUPUI
