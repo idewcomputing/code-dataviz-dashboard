@@ -104,7 +104,7 @@ h1 {
 {% endtabs %}
 
 {% hint style="info" %}
-Note: August 30, 2021 the Papaparse Javascript library was added to the template in the HTML above with the follow line ...
+Note: August 30, 2021 the Papaparse Javascript library was added to the template in the HTML above with the following line ...
 
 ```markup
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
